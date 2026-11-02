@@ -1,0 +1,17 @@
+[project]
+name = "loop-a-local-llm"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "kaseymallette", email = "kcmmallette@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+loop-a-local-llm = "loop_a_local_llm:main"
+
+[build-system]
+requires = ["uv_build>=0.12.6,<0.13.0"]
+build-backend = "uv_build"
